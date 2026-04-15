@@ -1,46 +1,91 @@
-<h1>Gerador de Certificados Simples (Google Colab)</h1>
+<h1>🎓 Gerador de Certificados Simples (Google Colab)</h1>
 
 <p>
-Este repositório permite gerar certificados automaticamente em PDF a partir de uma lista de participantes em Excel.
-O processo é executado diretamente no <strong>Google Colab</strong>, sem necessidade de instalar Python localmente.
+Gere certificados automaticamente em <strong>PDF</strong> a partir de uma lista de participantes em Excel,
+diretamente no <strong>Google Colab</strong>, sem instalar Python no computador.
 </p>
 
-<h2>Arquivos do repositório</h2>
+<p>
+✅ Simples de usar &nbsp;|&nbsp;
+✅ Funciona no navegador &nbsp;|&nbsp;
+✅ Gera certificados e lista de e-mails
+</p>
 
-<p>O repositório já contém:</p>
+<hr>
 
-<ul>
-  <li><strong>Gerador_de_certificados_simples.ipynb</strong> → notebook principal</li>
-  <li><strong>Lista.xlsx</strong> → planilha modelo com nomes e e-mails</li>
-  <li><strong>Modelo do certificado.pdf</strong> → modelo de exemplo em PDF para testes, utilize um único arquivo modelo (template) do certificado, que deve ser enviado quando solicitado durante a execução do notebook no Google Colab.</li>
-  <li><strong>Modelo do certificado.pptx</strong> → modelo de exemplo editável em PPTX, utilize o arquivo editável em PowerPoint (.pptx), que pode ser modificado livremente para criar o seu próprio layout de certificado antes de exportá-lo como PDF.
-</ul>
-
-<h2>O que o script faz</h2>
-
-<ol>
-  <li>Lê os nomes da planilha Excel</li>
-  <li>Insere o texto no certificado</li>
-  <li>Gera um PDF final com todos os certificados</li>
-  <li>Cria um arquivo com os e-mails dos participantes</li>
-</ol>
-
-<h2>Como usar no Google Colab</h2>
-
-<h3>1. Abra o notebook</h3>
+<h2>🚀 Comece aqui</h2>
 
 <p>
-Clique no botão abaixo para abrir o Google Colab:
+Este repositório foi criado para facilitar a geração automática de certificados a partir de uma planilha
+com os nomes e e-mails dos participantes.
+</p>
+
+<p>
+O processo é executado inteiramente no <strong>Google Colab</strong>, de forma prática e rápida.
 </p>
 
 <p>
 <a href="https://colab.research.google.com/" target="_blank">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Abrir no Colab"/>
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Abrir no Colab"/>
 </a>
 </p>
 
 <p>
-Em seguida, carregue o arquivo <strong>Gerador_de_certificados_simples.ipynb</strong>.
+Depois de abrir o Colab, carregue o arquivo <strong>Gerador_de_certificados_simples.ipynb</strong>.
+</p>
+
+<hr>
+
+<h2>📁 Arquivos do repositório</h2>
+
+<ul>
+  <li>
+    <strong>Gerador_de_certificados_simples.ipynb</strong><br>
+    Notebook principal que executa todo o processo.
+  </li>
+  <br>
+  <li>
+    <strong>Lista.xlsx</strong><br>
+    Planilha modelo com os nomes e e-mails dos participantes.
+  </li>
+  <br>
+  <li>
+    <strong>Modelo certificado.pdf</strong><br>
+    Modelo de exemplo em PDF para testes. Utilize um único arquivo modelo (template) do certificado,
+    que será enviado quando solicitado durante a execução do notebook no Google Colab.
+  </li>
+  <br>
+  <li>
+  <strong>Modelo certificado (editável).pptx</strong><br>
+  Modelo editável em PowerPoint (.pptx), que pode ser modificado livremente para criar o seu próprio
+  layout de certificado antes de exportá-lo como PDF.
+  <br><br>
+🎨 Alternativamente, você pode criar o certificado diretamente no
+<a href="https://www.canva.com/" target="_blank">Canva</a>,
+ ajustando livremente o layout antes de exportá-lo em <strong>PDF</strong> para uso como modelo no gerador.
+  </li>
+</ul>
+
+<hr>
+
+<h2>⚙️ O que o script faz</h2>
+
+<ol>
+  <li>📄 Lê os nomes da planilha Excel</li>
+  <li>🖋️ Insere o texto no certificado</li>
+  <li>📚 Gera um PDF final com todos os certificados</li>
+  <li>📧 Cria um arquivo com os e-mails dos participantes</li>
+</ol>
+
+<hr>
+
+<h2>🧭 Como usar no Google Colab</h2>
+
+<h3>1. Abra o notebook</h3>
+
+<p>
+Clique no botão do Google Colab acima e carregue o arquivo
+<strong>Gerador_de_certificados_simples.ipynb</strong>.
 </p>
 
 <h3>2. Execute o notebook</h3>
@@ -58,22 +103,65 @@ Quando o Colab solicitar a planilha, envie o arquivo:
 
 <pre><code>Lista.xlsx</code></pre>
 
-<p>A planilha deve conter exatamente estas colunas:</p>
+<p>
+A planilha deve conter <strong>exatamente</strong> estas colunas:
+</p>
 
 <table>
-<thead>
-<tr>
-<th>Nome</th>
-<th>E-mail</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>João da Silva</td>
-<td>joao@email.com</td>
-</tr>
-</tbody>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>E-mail</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>João da Silva</td>
+      <td>joao@email.com</td>
+    </tr>
+  </tbody>
 </table>
+
+<h3>💡 Dica prática: como coletar os nomes dos participantes rapidamente</h3>
+
+<p>
+Se você ainda não possui a lista de participantes, pode gerá-la facilmente usando
+o <strong>Google Forms</strong>.
+</p>
+
+<ol>
+  <li>
+    Acesse:
+    <a href="https://forms.google.com" target="_blank">Google Forms</a>
+  </li>
+  <li>
+    Crie um formulário com exatamente dois campos:
+    <strong>Nome</strong> e <strong>E-mail</strong>
+  </li>
+  <li>
+    Compartilhe o formulário com os participantes durante o evento
+  </li>
+  <li>
+    Exporte as respostas em Excel e salve o arquivo como <strong>Lista.xlsx</strong>
+  </li>
+</ol>
+
+<p>
+📌 Uma forma prática de divulgar o formulário é gerar um QR Code e colocá-lo na porta da sala
+ou projetá-lo na tela durante o evento.
+</p>
+
+<p>
+Você pode gerar o QR Code aqui:
+<a href="https://www.canva.com/qr-code-generator/" target="_blank">
+Canva QR Code Generator
+</a>
+</p>
+
+<p>
+⚠️ Ao exportar a planilha, mantenha exatamente as colunas
+<strong>Nome</strong> e <strong>E-mail</strong>.
+</p>
 
 <h3>4. Envie o PDF modelo do certificado</h3>
 
@@ -84,14 +172,18 @@ Envie esse arquivo normalmente.
 
 <h3>5. Baixe os arquivos gerados</h3>
 
-<p>Ao final, serão gerados automaticamente:</p>
+<p>
+Ao final da execução, serão gerados automaticamente:
+</p>
 
 <ul>
   <li><strong>certificados_ouvintes.pdf</strong></li>
   <li><strong>emails_ouvintes.txt</strong></li>
 </ul>
 
-<h2>Como editar o texto do certificado</h2>
+<hr>
+
+<h2>✏️ Como editar o texto do certificado</h2>
 
 <p>
 O texto exibido no certificado é definido dentro da função
@@ -114,11 +206,11 @@ return (
 <p>Você pode alterar:</p>
 
 <ul>
-  <li>nome do evento</li>
-  <li>data do evento</li>
-  <li>instituição</li>
-  <li>cidade</li>
-  <li>carga horária</li>
+  <li>📌 Nome do evento</li>
+  <li>📅 Data do evento</li>
+  <li>🏛️ Instituição</li>
+  <li>📍 Cidade</li>
+  <li>⏱️ Carga horária</li>
 </ul>
 
 <p>Exemplo modificado:</p>
@@ -135,11 +227,13 @@ return (
 </code></pre>
 
 <p>
-Não remova <strong>{nome}</strong> nem <strong>{data_extenso}</strong>,
-pois eles são preenchidos automaticamente pelo sistema.
+⚠️ Não remova <strong>{nome}</strong> nem <strong>{data_extenso}</strong>,
+pois esses campos são preenchidos automaticamente pelo sistema.
 </p>
 
-<h2>Como ajustar a posição do texto</h2>
+<hr>
+
+<h2>📐 Como ajustar a posição do texto</h2>
 
 <p>
 Se o texto aparecer muito alto, muito baixo ou fora do lugar no certificado, ajuste a variável:
@@ -156,7 +250,9 @@ TEXT_BOX_Y = 250
 TEXT_BOX_Y = 200
 </code></pre>
 
-<h2>Problemas comuns</h2>
+<hr>
+
+<h2>🛠️ Problemas comuns</h2>
 
 <h3>O texto não aparece no certificado</h3>
 
@@ -173,6 +269,8 @@ Nome
 E-mail
 </code></pre>
 
-<h2>Licença</h2>
+<hr>
+
+<h2>📄 Licença</h2>
 
 <p>CC0 1.0 Universal</p>
